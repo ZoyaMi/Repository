@@ -2,7 +2,7 @@ var dev = {
     cool: 'yes',
     stylish: 'no'
 }
-tmp = {};
+var tmp = {};
 for (i in dev) {
     tmp[dev[i]] = i;
 }
