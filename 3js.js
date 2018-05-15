@@ -17,7 +17,7 @@ var elements = [{
         powerfull: 'no'
     }
 ];
-for (w = 0; w < elements.length; w++)
+for (var w = 0; w < elements.length; w++)
     var lim = elements.length - 2;
 for (var i = lim; i >= 0; i--) {
     for (var j = 0; j <= i; j++) {
@@ -28,6 +28,6 @@ for (var i = lim; i >= 0; i--) {
         }
     }
 }
-for (w = 0; w < elements.length; w++) {
+for (var w = 0; w < elements.length; w++) {
     console.log(elements[w].name + ': ' + Object.keys(elements[w]).length)
 }
